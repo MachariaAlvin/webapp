@@ -1,0 +1,266 @@
+.header{
+    text-align: left;
+    background-color: black;
+    color: #fff;
+    padding: 32px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+   
+}
+body{
+    width: auto;
+    height: 1000px;
+    margin: 0;
+}
+nav{
+    display: inline-block;
+    
+
+}
+ul{
+    text-decoration: none;
+    display: flex;
+    padding: 2px 2px;
+    margin-left: 500px;
+    list-style-type: none;
+    position:absolute; left:80px; top:45px;
+   
+}
+.containers {
+    position: relative;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    overflow: hidden;
+}
+  
+
+.mySlides {
+    display: none;
+    
+}
+  
+  
+.cursor {
+    cursor: pointer;
+}
+  
+ 
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+  
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+   
+}
+  
+  
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+ 
+.column {
+    float: left;
+    
+}
+  
+.demo {
+    opacity: 0.6;
+}
+  
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+.element{
+    text-decoration: none;
+    padding: 2px 40px;
+    font-family: 'Nunito', sans-serif;
+
+}
+.a{
+    color: #fff;
+}
+.a:link { 
+    text-decoration: none;
+    transition: all .5s; 
+}
+a:hover{
+    color: orange;
+}
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    overflow: hidden;
+}
+.Description{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.RED{
+    margin: 3px  auto;
+    font-family: 'Nunito', sans-serif;
+
+}
+.im{
+    width: 50px;
+    aspect-ratio: 35/4;
+    height: 50px;
+}
+.gallery img{
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+footer{
+    background-color: black;
+    padding: 25px;
+    color:#fff;
+    font-family: sans-serif;
+}
+.container{
+    background-color: rgb(0, 0, 0);
+    color:gray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 5px;
+
+}
+.bold{
+    font-family: 'Nunito', sans-serif;
+    font-size: large;
+    color: white;
+    padding-left: 1px;
+}
+.foot{
+    padding: 0 15px;
+    margin: 0 50px;
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.inline{
+    word-spacing: 2px;
+    font-family: 'Nunito', sans-serif;
+}
+ul-2{
+    list-style-type: none;
+    line-height: 30px;
+    
+}
+.news{
+    display: inline;
+    align-items: right;
+    margin: auto;
+}
+.price{
+    text-decoration: line-through;
+}
+.red{
+    font-size: 0.9em;
+
+}
+.email{
+    padding: 5px;
+    font-size: 1em;
+    background-color: rgb(61, 60, 60);
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+}
+.no-outline:focus{
+    outline: none;
+}
+.submit{
+    font-size: 1em;
+    background-color: rgb(0,0,0);
+    color: aqua;
+    border: 1px solid aqua;
+    padding: 4px;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.submit::before{
+    background-color: orange;
+}
+.submit:hover{
+    color: orange;
+   
+}
+.buy{
+    
+    max-height: 40px;
+    
+    
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+   
+    
+
+    
+    background-color: #eb6e1c;
+    border-radius: 1px;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 12px 30px;
+    transition: all .5s;
+    border: none;
+    
+}
+    
+   
+

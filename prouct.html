@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="product.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <title>Checkout</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Urban dresses</h1>
+        <nav>
+            <ul class="none">
+                <li class="element"><a href="#" target="_blank">Home</a></li>
+                <li class="element"><a href="#" target="_blank">Products</a></li>
+                <li class="element"><a href="#" target="_blank">About Us</a></li>
+                <li class="element"><a href="#" target="_blank">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+ 
+        <!-- Left Column / Headphones Image -->
+        <div class="left-column">
+            <img data-image="black" src="https://media.istockphoto.com/id/1393067614/photo/fashion-model-in-red-long-waving-luxury-dress-dark-skinned-beauty-woman-with-afro-black.jpg?s=612x612&w=0&k=20&c=kTH_px-nbGAUXNJvHW1cYM3-DnuJa0tQcjFvnJF4TxQ=" alt="">
+            <img data-image="blue" src="https://media.istockphoto.com/id/1393067614/photo/fashion-model-in-red-long-waving-luxury-dress-dark-skinned-beauty-woman-with-afro-black.jpg?s=612x612&w=0&k=20&c=kTH_px-nbGAUXNJvHW1cYM3-DnuJa0tQcjFvnJF4TxQ=" alt="">
+            <img data-image="red" class="active" src="https://media.istockphoto.com/id/1393067614/photo/fashion-model-in-red-long-waving-luxury-dress-dark-skinned-beauty-woman-with-afro-black.jpg?s=612x612&w=0&k=20&c=kTH_px-nbGAUXNJvHW1cYM3-DnuJa0tQcjFvnJF4TxQ=" alt="">   
+        </div>
+       
+       
+        <!-- Right Column -->
+        <div class="right-column">
+       
+          <!-- Product Description -->
+          <div class="product-description">
+            <span>Dress</span>
+            <h1>ALEXANDRIA BODYCON LONG DRESS</h1>
+            <p>The preferred choice of a vast range of acclaimed DJs. Punchy, bass-focused sound and high isolation. Sturdy headband and on-ear cushions suitable for live performance</p>
+          </div>
+       
+          <!-- Product Configuration -->
+          <div class="product-configuration">
+       
+            <!-- Product Color -->
+            <div class="product-color">
+              <span>Color</span>
+       
+              <div class="color-choose">
+                <div>
+                  <input data-image="red" type="radio" id="red" name="color" value="red" checked>
+                  <label for="red"><span></span></label>
+                </div>
+                <div>
+                  <input data-image="blue" type="radio" id="blue" name="color" value="blue">
+                  <label for="blue"><span></span></label>
+                </div>
+                <div>
+                  <input data-image="black" type="radio" id="black" name="color" value="black">
+                  <label for="black"><span></span></label>
+                </div>
+              </div>
+       
+            </div>
+       
+            <!-- Cable Configuration -->
+            <div class="cable-config">
+              <span>Size</span>
+       
+              <div class="cable-choose">
+                <button>Small</button>
+                <button>Meduim</button>
+                <button>Large</button>
+              </div>
+            </div>
+          </div>
+       
+          <!-- Product Pricing -->
+          <div class="product-price">
+            <span>$39</span>
+            <a href="#" class="cart-btn">Add to cart</a>
+          </div>
+        </div>
+        <footer>
+          <div class="container">
+              <div class="row">
+                  <div class="foot">
+                      <h1 class="bold">Shop</h1>
+                      <ul-2>
+                          <li><a href="#" class="inline">About US</a></li>
+                          <li><a href="#" class="inline">Contact Us</a></li>
+                          <li><a href="#" class="inline">FAQ</a></li>
+                          <li><a href="#" class="inline">Terms Of Service</a></li>
+                          <li><a href="#" class="inline">Refund Policy</a></li>
+                          
+                      </ul>
+                  </div>
+                  <div class="foot">
+                      <h1 class="bold">Information</h1>
+                      <ul-2>
+                          <li><a href="#" class="inline">Founders Feature</a></li>
+                          <li><a href="#" class="inline">Style with Us</a></li>
+                      </ul>
+                  </div>
+                  
+                  <div class="foot">
+                      <h1 class="bold">Customer Service</h1>
+                      <ul-2>
+                          <li><a href="#" class="inline">privacy Policy</a></li>
+                          <li><a href="#" class="inline">Refund Services</a></li>
+                      </ul>
+                  </div>
+                  <div class="foot">
+                      <h1 class="bold">Carrer</h1>
+                      <ul-2>
+                          <li><a href="#" clas="inline">Career</a></li>
+                  </div>
+              </div>
+              <div class="news">    
+                  <p class="mssg">*Would you like to receive Email adverts?</p>
+                      <label>
+                          <i class="fa fa-circle-o-notch fa-spin fa-3x fa-fw"></i>
+                          <span class="sr-only">Loading...</span>
+                          <input class="email" type="email" name="email" placeholder="Enter your Email...">
+                      </label>
+                      <label>
+                          <button class="submit">SUBMIT</button>
+                      </label>
+              </div>
+          </div>
+      </footer>
+      </main>
+      
+</body>
+</html>

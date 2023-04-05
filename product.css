@@ -1,0 +1,264 @@
+.header{
+    text-align: left;
+    background-color: black;
+    color: #fff;
+    padding: 32px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+nav{
+    display: inline-block;
+    
+
+}
+ul{
+    text-decoration: none;
+    display: flex;
+    padding: 2px 2px;
+    margin-left: 500px;
+    list-style-type: none;
+    position:absolute; left:80px; top:45px;
+}
+.element{
+    text-decoration: none;
+    padding: 2px 40px;
+    font-family: 'Nunito', sans-serif;
+}
+a{
+    color: #fff;
+}
+a:link { 
+    text-decoration: none;
+    transition: all .5s; 
+}
+a:hover{
+    color: orange;
+}
+/* Basic Styling */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+}
+ 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+}
+/* Columns */
+.left-column {
+    width: 65%;
+    position: relative;
+  }
+   
+  .right-column {
+    width: 35%;
+    margin-top: 60px;
+  }
+  /* Left Column */
+.left-column img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+   
+  .left-column img.active {
+    opacity: 1;
+  }
+  /* Product Description */
+.product-description {
+    border-bottom: 1px solid #E1E8EE;
+    margin-bottom: 20px;
+  }
+  .product-description span {
+    font-size: 12px;
+    color: #358ED7;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .product-description h1 {
+    font-weight: 300;
+    font-size: 52px;
+    color: #43484D;
+    letter-spacing: -2px;
+  }
+  .product-description p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #86939E;
+    line-height: 24px;
+  }
+  /* Product Color */
+.product-color {
+    margin-bottom: 30px;
+  }
+   
+  .color-choose div {
+    display: inline-block;
+  }
+   
+  .color-choose input[type=&amp;quot;radio&amp;quot;] {
+    display: none;
+  }
+   
+  .color-choose input[type=&amp;quot;radio&amp;quot;] + label span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: -1px 4px 0 0;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+   
+  /* Cable Configuration */
+.cable-choose {
+    margin-bottom: 20px;
+  }
+   
+  .cable-choose button {
+    border: 2px solid #E1E8EE;
+    border-radius: 6px;
+    padding: 13px 20px;
+    font-size: 14px;
+    color: #5E6977;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all .5s;
+  }
+   
+  .cable-choose button:hover,
+  .cable-choose button:active,
+  .cable-choose button:focus {
+    border: 2px solid #86939E;
+    outline: none;
+  }
+   
+  .cable-config {
+    border-bottom: 1px solid #E1E8EE;
+    margin-bottom: 20px;
+  }
+   
+  .cable-config a {
+    color: #358ED7;
+    text-decoration: none;
+    font-size: 12px;
+    position: relative;
+    margin: 10px 0;
+    display: inline-block;
+  }
+  
+  
+  /* Product Price */
+.product-price {
+    display: flex;
+    align-items: center;
+  }
+   
+  .product-price span {
+    font-size: 26px;
+    font-weight: 300;
+    color: #43474D;
+    margin-right: 20px;
+  }
+   
+  .cart-btn {
+    display: inline-block;
+    background-color: #eb6e1c;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 12px 30px;
+    transition: all .5s;
+  }
+  .cart-btn:hover {
+    background-color: #eb6e1c;
+  }
+  footer{
+    background-color: black;
+    padding: 25px;
+    color:#fff;
+    font-family: sans-serif;
+}
+.container{
+    background-color: rgb(0, 0, 0);
+    color:gray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 5px;
+
+}
+.bold{
+    font-family: 'Nunito', sans-serif;
+    font-size: large;
+    color: white;
+    padding-left: 1px;
+}
+.foot{
+    padding: 0 15px;
+    margin: 0 50px;
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.inline{
+    word-spacing: 2px;
+    font-family: 'Nunito', sans-serif;
+}
+ul-2{
+    list-style-type: none;
+    line-height: 30px;
+    
+}
+.news{
+    display: inline;
+    align-items: right;
+    margin: auto;
+}
+.price{
+    text-decoration: line-through;
+}
+.red{
+    font-size: 0.9em;
+
+}
+.email{
+    padding: 5px;
+    font-size: 1em;
+    background-color: rgb(61, 60, 60);
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+}
+.no-outline:focus{
+    outline: none;
+}
+.submit{
+    font-size: 1em;
+    background-color: rgb(0,0,0);
+    color: aqua;
+    border: 1px solid aqua;
+    padding: 4px;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.submit::before{
+    background-color: orange;
+}
+.submit:hover{
+    color: orange;
+}
